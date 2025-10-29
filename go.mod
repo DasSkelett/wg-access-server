@@ -1,6 +1,6 @@
 module github.com/freifunkMUC/wg-access-server
 
-go 1.24
+go 1.24.0
 
 toolchain go1.24.3
 
@@ -25,7 +25,7 @@ require (
 	github.com/tg123/go-htpasswd v1.2.4
 	github.com/vishvananda/netlink v1.3.1
 	golang.org/x/crypto v0.40.0
-	golang.org/x/oauth2 v0.30.0
+	golang.org/x/oauth2 v0.32.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20241231184526-a9ab2273dd10
 	google.golang.org/grpc v1.74.2
 	google.golang.org/protobuf v1.36.6
