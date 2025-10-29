@@ -31,6 +31,6 @@ jobs:
             typos-${{ runner.os }}-
 
       - name: Run Typos with custom config
-        uses: crate-ci/typos@392b78fe18a52790c53f42456e46124f77346842 # v1.34.0
+        uses: crate-ci/typos@80c8a4945eec0f6d464eaf9e65ed98ef085283d1 # v1.38.1
         with:
           config: ./.typos.toml
